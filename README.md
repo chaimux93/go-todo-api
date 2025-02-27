@@ -1,6 +1,6 @@
 # 📌 API de Gestion des Tâches en Go (Gin)
 
-👥 **Groupe Go** : Ayoub MAD ,Zineb RAMHI ,Chaïma KADDOURI
+👥 **Groupe Go** : Ayoub MAD ,Zineb RAMHI
 
 🔗 **Dépôt GitHub** : https://github.com/chaimux93/go-todo-api
 
