@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # 📌 API de Gestion des Tâches en Go (Gin)
 
 👥 **Groupe Go** : Zineb RAMHI ,Chaïma KADDOURI, Ayoub MAD
@@ -43,3 +44,6 @@ Le serveur tourne maintenant sur : **[http://localhost:8080](http://localhost:80
 Ce projet a été réalisé dans le cadre du Groupe Go par :  
 **Ayoub MAD ,Zineb RAMHI ,Chaïma KADDOURI**
 
+=======
+ 
+>>>>>>> main
