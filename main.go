@@ -46,21 +46,3 @@ func createTask(c *gin.Context) {
 	tasks = append(tasks, newTask)
 	c.JSON(http.StatusCreated, newTask)
 }
-
-// Mettre à jour une tâche existante
-func updateTask(c *gin.Context) {
-	var updatedTask Task
-	if err := c.ShouldBindJSON(&updatedTask); err != nil {
-		c.JSON(http.StatusBadRequest, gin.H{"error": "Format JSON invalide"})
-		return
-	}
-
-	for i, task := range tasks {
-		if task.ID == updatedTask.ID {
-			tasks[i].Title = updatedTask.Title
-			c.JSON(http.StatusOK, tasks[i])
-			return
-		}
-	}
-	c.JSON(http.StatusNotFound, gin.H{"error": "Tâche non trouvée"})
-}
