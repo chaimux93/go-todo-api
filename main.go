@@ -177,6 +177,6 @@ func main() {
 		c.JSON(http.StatusAccepted, gin.H{"message": "Traitement lancé en arrière-plan"})
 	})
 
-	// Lancer le serveur sur le port 8080
-	r.Run(":8080")
+	// Lancer le serveur sur le port 8082
+	r.Run(":8082")
 }
