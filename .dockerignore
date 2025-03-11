@@ -1,1 +1,11 @@
- 
+# Fichiers de l'IDE
+.idea
+
+# Config GitHub
+.github
+
+# Documentation inutile dans l'image
+README.md
+
+# Fichier JSON de persistance des tâches (à ne pas copier dans l'image)
+tasks.json
