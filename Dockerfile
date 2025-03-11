@@ -9,4 +9,4 @@ RUN upx --ultra-brute -qq main && upx -t main
 FROM scratch
 COPY --from=builder /app/main /main
 CMD ["/main"]
-EXPOSE 8080
+EXPOSE 8082
