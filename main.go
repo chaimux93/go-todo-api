@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 package main
 
 import (
@@ -180,6 +180,3 @@ func main() {
 	// Lancer le serveur sur le port 8080
 	r.Run(":8080")
 }
-=======
-
->>>>>>> 3252913d5afffbb3b10bf57d3ace02267615c6d3
