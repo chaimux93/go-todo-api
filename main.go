@@ -80,6 +80,9 @@ func main() {
 	// Créer un routeur Gin
 	r := gin.Default()
 
+	// Configurer les proxies de confiance (après gin.Default())
+    r.SetTrustedProxies([]string{"127.0.0.1", "::1"})
+
 	// Route GET /tasks pour récupérer la liste des tâches
 	r.GET("/tasks", func(c *gin.Context) {
 		mutex.Lock()
